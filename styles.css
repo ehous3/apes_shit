@@ -159,20 +159,21 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
     max-width: 200px;
     max-height: 200px;
 }
-.last-line {
-    padding-top: 0%;
+.order-last {
+    display: inline-block;
 }
 .last-line {
+    padding-top: 0%;
     border-bottom: 15px solid #bfc500;
     display: block;
     padding-top: 30px;
     max-width: 100%;
 }
-.order-last {
-    margin-left: 80%;
-    margin-top: 0%;
-    float: left;
-    z-index: 1;
+.text-lg-right {
+    text-align: right !important;
+}
+.pr-lg-0, .px-lg-0 {
+    padding-right: 0 !important;
 }
 #background {
     width: 1260px;
