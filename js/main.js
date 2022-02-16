@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // Unix timestamp (in seconds) to count down to
-  var oneMonthFromNow = (new Date().getTime() / 1000) + (86400 * 30) + 1;
+  var aprilFirst = 1648803600
 
   // Set up FlipDown
-  var flipdown = new FlipDown(oneMonthFromNow)
+  var flipdown = new FlipDown(aprilFirst)
 
     // Start the countdown
     .start()
