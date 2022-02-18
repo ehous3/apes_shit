@@ -212,8 +212,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   margin: auto auto;
   transition: .3s;
   width: 70%;
-  margin-top: 35%;
-  margin-left: 12.5%;
+  margin-left: 15%;
 }
 #background {
   width: 1260px;
