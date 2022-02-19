@@ -18,15 +18,21 @@
   height: 30%;
 }
 
+#counter-div button {
+  margin-top: 20%;
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  outline:none;
+}
+
 #button__decrease {
-  margin-top: 15%;
   margin-left: 15%;
-  margin-right: 20%;
+  margin-right: 13%;
   float: left;
 }
 
 #button__increase {
-  margin-top: 15%;
   margin-right: 10%;
   float: right;
 }
