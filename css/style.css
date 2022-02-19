@@ -110,7 +110,7 @@ p {
   color: #000;
   border: 0;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 100%;
   padding: 5%;
   margin: auto auto;
   transition: .3s;
@@ -181,6 +181,38 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.mint-div {
+  background-color: #000;
+  position: absolute;
+  top: 47.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 28%;
+  width: 15%;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mint-title {
+  text-align: center;
+}
+.mint-sub-title {
+  text-align: center;
+  font-size: 100%;
+}
+.mint-button {
+  background-color: #505050;
+  border-radius: 8px;
+  color: #000;
+  border: 0;
+  font-weight: 700;
+  font-size: 100%;
+  padding: 5%;
+  margin: auto auto;
+  transition: .3s;
+  width: 70%;
+  margin-left: 15%;
 }
 #background {
   width: 1260px;
